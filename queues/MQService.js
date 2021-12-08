@@ -1,7 +1,7 @@
 const amqp = require('amqplib/callback_api');
 const { log } = require('../helper/tools');
 
-const CONN_URL = "amqp://localhost";
+const CONN_URL = "amqp://172.17.0.4:5672";
 
 
 const sendQueue = () => {
